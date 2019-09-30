@@ -1,5 +1,6 @@
 /* || General setup */
 
+html,
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +8,7 @@ body {
 
 html {
     font-size: 10px;
-    background-color: blue;
+    background-color: #a9a9a9;
 }
 
 body {
@@ -116,6 +117,10 @@ nav span {
     text-transform: uppercase;
     text-decoration: none;
     color: black;
+}
+nav span:hover{
+    background-color: black;
+    color: aliceblue;
 }
 
 /* || main layout */
